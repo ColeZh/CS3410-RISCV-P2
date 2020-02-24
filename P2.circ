@@ -140,6 +140,76 @@ end TCL_Generic;
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="circuitnamedbox" val="true"/>
     <a name="circuitvhdlpath" val=""/>
+    <wire from="(2730,380)" to="(2750,380)"/>
+    <wire from="(2120,380)" to="(2120,680)"/>
+    <wire from="(1040,640)" to="(1040,670)"/>
+    <wire from="(80,360)" to="(320,360)"/>
+    <wire from="(320,340)" to="(320,360)"/>
+    <wire from="(320,360)" to="(320,380)"/>
+    <wire from="(680,400)" to="(780,400)"/>
+    <wire from="(2350,300)" to="(2490,300)"/>
+    <wire from="(2350,360)" to="(2490,360)"/>
+    <wire from="(2350,340)" to="(2490,340)"/>
+    <wire from="(2350,320)" to="(2490,320)"/>
+    <wire from="(320,380)" to="(320,670)"/>
+    <wire from="(690,340)" to="(780,340)"/>
+    <wire from="(690,300)" to="(780,300)"/>
+    <wire from="(2710,300)" to="(2750,300)"/>
+    <wire from="(2710,320)" to="(2750,320)"/>
+    <wire from="(2710,340)" to="(2750,340)"/>
+    <wire from="(2710,360)" to="(2750,360)"/>
+    <wire from="(340,320)" to="(350,320)"/>
+    <wire from="(610,300)" to="(680,300)"/>
+    <wire from="(80,300)" to="(80,360)"/>
+    <wire from="(2730,380)" to="(2730,680)"/>
+    <wire from="(2100,300)" to="(2140,300)"/>
+    <wire from="(2100,320)" to="(2140,320)"/>
+    <wire from="(2100,340)" to="(2140,340)"/>
+    <wire from="(2100,360)" to="(2140,360)"/>
+    <wire from="(320,380)" to="(690,380)"/>
+    <wire from="(2120,380)" to="(2140,380)"/>
+    <wire from="(320,670)" to="(320,680)"/>
+    <wire from="(1020,360)" to="(1060,360)"/>
+    <wire from="(1020,320)" to="(1060,320)"/>
+    <wire from="(1020,300)" to="(1060,300)"/>
+    <wire from="(1020,340)" to="(1060,340)"/>
+    <wire from="(1020,380)" to="(1060,380)"/>
+    <wire from="(1020,400)" to="(1060,400)"/>
+    <wire from="(1020,420)" to="(1060,420)"/>
+    <wire from="(1020,440)" to="(1060,440)"/>
+    <wire from="(1020,460)" to="(1060,460)"/>
+    <wire from="(1020,480)" to="(1060,480)"/>
+    <wire from="(1020,500)" to="(1060,500)"/>
+    <wire from="(1020,520)" to="(1060,520)"/>
+    <wire from="(1020,540)" to="(1060,540)"/>
+    <wire from="(1020,560)" to="(1060,560)"/>
+    <wire from="(1020,580)" to="(1060,580)"/>
+    <wire from="(1020,600)" to="(1060,600)"/>
+    <wire from="(1020,620)" to="(1060,620)"/>
+    <wire from="(80,300)" to="(120,300)"/>
+    <wire from="(300,300)" to="(340,300)"/>
+    <wire from="(300,320)" to="(340,320)"/>
+    <wire from="(690,300)" to="(690,320)"/>
+    <wire from="(690,340)" to="(690,380)"/>
+    <wire from="(320,340)" to="(340,340)"/>
+    <wire from="(60,300)" to="(80,300)"/>
+    <wire from="(680,300)" to="(680,400)"/>
+    <wire from="(320,670)" to="(1040,670)"/>
+    <wire from="(610,320)" to="(690,320)"/>
+    <wire from="(1040,640)" to="(1060,640)"/>
+    <wire from="(320,680)" to="(2120,680)"/>
+    <wire from="(2120,680)" to="(2730,680)"/>
+    <comp loc="(300,300)" name="Fetch"/>
+    <comp loc="(1020,300)" name="Decode"/>
+    <comp loc="(610,300)" name="FetchRegister"/>
+    <comp loc="(1330,300)" name="DecodeRegister"/>
+    <comp loc="(2100,300)" name="Execute"/>
+    <comp loc="(2350,300)" name="ExecuteRegister"/>
+    <comp loc="(2710,300)" name="Memory"/>
+    <comp loc="(2970,300)" name="MemoryRegister"/>
+    <comp lib="0" loc="(60,300)" name="Clock">
+      <a name="label" val="Clk"/>
+    </comp>
   </circuit>
   <circuit name="Fetch">
     <a name="circuit" val="Fetch"/>
