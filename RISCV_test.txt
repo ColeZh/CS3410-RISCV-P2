@@ -1,4 +1,17 @@
-sub x24, x6, x29
+addi t0, x0, 0 			#fib(4)
+addi t1, x0, 1 
+addi t2, x0, 0 
+add t2, t0, t1
+add t0, x0, t1
+add t1, x0, t2
+add t2, t0, t1
+add t0, x0, t1
+add t1, x0, t2
+add t2, t0, t1
+add t0, x0, t1
+add t1, x0, t2
+addi a0, t2, 0
+sub x24, x6, x29 		#random test cases
 sub x12, x13, x26
 auipc x9, 143681
 SRL x31, x20, x0
