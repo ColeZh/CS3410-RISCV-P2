@@ -1,6 +1,4 @@
-addi t0, x0, 0 			#fib(4)
-addi t1, x0, 1 
-addi t2, x0, 0 
+addi t1, x0, 1 			#fib(4)
 add t2, t0, t1
 add t0, x0, t1
 add t1, x0, t2
