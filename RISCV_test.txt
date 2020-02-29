@@ -9,6 +9,111 @@ add t2, t0, t1
 add t0, x0, t1
 add t1, x0, t2
 addi a0, t2, 0
+srli x19, x1, 0x001		#Edge Cases		
+srli x20, x1, 0x002
+srli x21, x1, 0x000
+srli x22, x1, 0x015
+srai x23, x1, 0x001
+srai x24, x1, 0x000
+srai x25, x3, 0x004
+slli x10, x1, 0x001
+slti x11, x1, 12
+slti x12, x1, 0x000
+slti x13, x1, 0x015
+sltiu x14, x1, 0xffe
+sltiu x15, x1, 0x000
+sltiu x16, x3, 0xffe
+ori x26, x0, 0xfff
+ori x27, x4, 0000000000
+ori x28, x4, 000000001111
+andi x29, x5, 0xfff
+andi x30, x5, 0
+andi x31, x4, 000000001111
+addi x1, x0, 0x015
+addi x2, x0, 0x003
+addi x3, x0, 0xffe
+addi x4, x0, 000000001111
+addi x5, x0, 0xfff
+addi x0, x0, 0x000
+xori x17, x4, 0xff0
+xori x18, x0, 10
+add x0, x1, t1			#test each register
+add x1, x1, t1
+add x2, x1, t1
+add x3, x1, t1
+add x4, x1, t1
+add x5, x1, t1
+add x6, x1, t1
+add x7, x1, t1
+add x8, x1, t1
+add x9, x1, t1
+add x10, x1, t1
+add x11, x1, t1
+add x12, x1, t1
+add x13, x1, t1
+add x14, x1, t1
+add x15, x1, t1
+add x16, x1, t1
+add x17, x1, t1
+add x18, x1, t1
+add x19, x1, t1
+add x20, x1, t1
+add x21, x1, t1
+add x22, x1, t1
+add x23, x1, t1
+add x24, x1, t1
+add x25, x1, t1
+add x26, x1, t1
+add x27, x1, t1
+add x28, x1, t1
+add x29, x1, t1
+add x30, x1, t1
+add x31, x1, t1
+jal x11, 2000			#table B
+jalr x0, x1, 0
+beq x10, x0, L1
+L1:
+bne x22, x23, Else 
+Else:
+blt x20, x0, exit2
+exit2:
+bge x5, x0, L1
+lw x25, 4(x10)
+lb x15, 4(x11)
+sw x25, 4(x12)
+sb x15, 4(x13)
+bgeu x5, x10, 4
+bltu x31, x5, 0
+addi x7, x20, 1130		#testing different numbers and instruction
+SRA x29, x7, x8
+addi x16, x19, 1453
+slt x3, x0, x4
+slt x7, x23, x29
+ori x5, x12, -958
+sltiu x0, x29, 3762
+addi x31, x15, -487
+andi x31, x19, -1105
+xor x13, x11, x12
+or x29, x24, x8
+andi x21, x3, -1639
+lui x5, 482308
+xor x17, x23, x0
+and x22, x0, x1
+xori x27, x26, -1575
+sll x3, x16, x19
+and x13, x25, x31
+ori x9, x15, 221
+srli x19, x2, 30
+SRA x4, x12, x19
+SRA x23, x14, x7
+sltiu x12, x16, 3570
+sltu x0, x13, x28
+srai x19, x18, 5
+xor x13, x12, x8
+auipc x1, 7379
+SRL x8, x9, x23
+sub x8, x30, x23
+or x9, x27, x22
 sub x24, x6, x29 		#random test cases
 sub x12, x13, x26
 auipc x9, 143681
