@@ -1,0 +1,216 @@
+commit 0dbe8ff82a22c8f81f18a14a1da919b8863326cd (HEAD -> master, origin/master, origin/HEAD)
+Author: Oscar <os2304@columbia.edu>
+Date:   Fri Feb 28 20:02:10 2020 -0500
+
+    pdf
+
+commit 9fb6d19b52dbcdfd819bbf726ba70afd9b09088c
+Author: Oscar <os2304@columbia.edu>
+Date:   Fri Feb 28 18:58:47 2020 -0500
+
+    decode and testing design doc
+
+commit 75673bd837c6213cfbc71f3240a04ac441a69478
+Author: Michael John Rigney <mjr372@cornell.edu>
+Date:   Fri Feb 28 18:29:04 2020 -0500
+
+    design doc besides Decode
+
+commit 586e42f67f054079354d1cada82d02cd796f42d1
+Author: Oscar <os2304@columbia.edu>
+Date:   Fri Feb 28 17:19:34 2020 -0500
+
+    fixed bug
+
+commit 5c3ddcf5b4f8da515f3e91fdd445940be9a41010
+Author: Oscar <os2304@columbia.edu>
+Date:   Fri Feb 28 13:22:48 2020 -0500
+
+    more debugging
+
+commit b01acd1a216db8d097b9a34326bf79b9bdb53a88
+Author: Oscar <os2304@columbia.edu>
+Date:   Fri Feb 28 11:49:15 2020 -0500
+
+    more control
+
+commit 594f098356698cffd00287e8b6d700c1e21f2d49
+Author: Michael John Rigney <mjr372@cornell.edu>
+Date:   Thu Feb 27 14:59:40 2020 -0500
+
+    images from out logisim file
+
+commit 24326f49a85bef39611c0cedac24d0f4d6bbd3c1
+Author: Oscar <os2304@columbia.edu>
+Date:   Wed Feb 26 21:50:24 2020 -0500
+
+    opcode bug fixing start
+
+commit 061c0059f405b753e7e9ddeb710203da4da7129e
+Author: Oscar <os2304@columbia.edu>
+Date:   Wed Feb 26 20:20:09 2020 -0500
+
+    fib4
+
+commit 406b5f64e2ad65df51895a0ffadc07605589fef3
+Author: Oscar <os2304@columbia.edu>
+Date:   Wed Feb 26 19:26:13 2020 -0500
+
+    random tests
+
+commit 46af0a437d71bdb9927b8d0945e12c7d61e0e20e
+Author: Oscar <os2304@columbia.edu>
+Date:   Wed Feb 26 19:05:11 2020 -0500
+
+    RISCV
+
+commit c75adf61b2ea68ed6ad5ac6af5f88c8d1f0df820
+Author: Oscar <os2304@columbia.edu>
+Date:   Wed Feb 26 18:48:46 2020 -0500
+
+    Hazards main
+
+commit 699bb01b6ca43849c100c14c49b380e2c4453156
+Author: Michael John Rigney <mjr372@cornell.edu>
+Date:   Wed Feb 26 17:08:59 2020 -0500
+
+    finished Hazards and Forwarding
+
+commit 5aaadfc6730df449455c1b2c583a18dd6b3ae62a
+Author: Oscar <os2304@columbia.edu>
+Date:   Mon Feb 24 15:01:05 2020 -0500
+
+    circuit less hazards
+
+commit 26c2aaafd5e2011d22853aadc06cd9b2a90523e4
+Author: Oscar <os2304@columbia.edu>
+Date:   Mon Feb 24 14:39:13 2020 -0500
+
+    combined most circuits into main
+
+commit 7a038e932bd0a3f97d12daa918e8d2e9a3232261
+Author: Oscar <os2304@columbia.edu>
+Date:   Mon Feb 24 14:23:12 2020 -0500
+
+    Oscar Decode Register
+
+commit 4053ff73c26dd89ff2575c26cef961608f03ca6f
+Author: Oscar <os2304@columbia.edu>
+Date:   Sun Feb 23 22:14:58 2020 -0500
+
+    Oscar Decode Done
+
+commit 618c28435ee1dd283d82405689fbe2a047d6e895
+Author: Oscar <os2304@columbia.edu>
+Date:   Sun Feb 23 22:06:27 2020 -0500
+
+    clean decode
+
+commit 07ee57ebedb982b490285eaded3b3b452ce0d860
+Author: Oscar <os2304@columbia.edu>
+Date:   Sun Feb 23 21:52:17 2020 -0500
+
+    decoder pt1
+
+commit 9540605f454a11de15687d0e7c1244084799b301
+Author: Michael John Rigney <mjr372@cornell.edu>
+Date:   Sun Feb 23 16:54:47 2020 -0500
+
+    MEM and MEM/WB pipeline
+
+commit 9f453222335c5aa62cbe68ef078fbfcdf3c08a82
+Merge: 79be7a6 e56e061
+Author: Oscar <os2304@columbia.edu>
+Date:   Sun Feb 23 11:14:50 2020 -0500
+
+    new
+
+commit 79be7a6c024958d98ae4b328bd1f2e7a17c1ecfe
+Author: Oscar <os2304@columbia.edu>
+Date:   Sun Feb 23 11:12:41 2020 -0500
+
+    oscar changes decode sub circuits
+
+commit e56e061074dfe7c71a99f81f2527cc2cb67e923f
+Author: Michael John Rigney <mjr372@cornell.edu>
+Date:   Sat Feb 22 18:39:38 2020 -0500
+
+    Michael.circ
+
+commit 0042ebea6ea6f21c6d8e75085f909e30efae87b2
+Author: Michael John Rigney <mjr372@cornell.edu>
+Date:   Sat Feb 22 18:38:26 2020 -0500
+
+    added Michael.circ
+
+commit 4bc7c6a9b33f217763706441f66ecbe6c9c348aa
+Author: Oscar <os2304@columbia.edu>
+Date:   Fri Feb 21 14:43:03 2020 -0500
+
+    control oscar
+
+commit 1c40e32d9710a7e1a24226f5bde25b3f4902c36a
+Author: Oscar <os2304@columbia.edu>
+Date:   Fri Feb 21 14:22:00 2020 -0500
+
+    fetch register oscar
+
+commit 8920d85073e32849c95ad3d9c487205f8d62f4cc
+Author: Oscar <os2304@columbia.edu>
+Date:   Fri Feb 21 14:17:56 2020 -0500
+
+    fetch oscar
+
+commit e66449cbf3d32e1afd644fed723f3c25e23bec9f
+Author: Oscar <os2304@columbia.edu>
+Date:   Thu Feb 20 19:55:35 2020 -0500
+
+    bases
+
+commit 9b59c7eaf7a75caa71db68c06f336c7b397aecc6
+Author: Oscar <os2304@columbia.edu>
+Date:   Tue Feb 18 16:51:25 2020 -0500
+
+    logism
+
+commit 89fa138eda6fe3c0fd8ebbc53ca7748a2cfb8292
+Author: Oscar <os2304@columbia.edu>
+Date:   Tue Feb 18 16:44:39 2020 -0500
+
+    screenshots
+
+commit 427c35986abd24b8b91b374beda0998c2a08bfb4
+Author: Oscar <os2304@columbia.edu>
+Date:   Tue Feb 18 14:57:21 2020 -0500
+
+    diagram
+
+commit c72a9392a6521340ba952ea4fe2ea228b13cce41
+Author: Michael John Rigney <mjr372@cornell.edu>
+Date:   Sun Feb 16 23:48:54 2020 -0500
+
+    commentary on each step
+
+commit 9aa92b57eb322fdf58b3e59da1a4c68b3b129b7b
+Author: Oscar <os2304@columbia.edu>
+Date:   Sun Feb 16 21:11:12 2020 -0500
+
+    3.1
+
+commit 2291e2d57ba7d497cda9a53dbaa0e0a9bc1f6b96
+Author: Oscar <os2304@columbia.edu>
+Date:   Fri Feb 14 16:14:20 2020 -0500
+
+    design doc
+
+commit 8fa32496913678c8a351b6443e0dfe3cc762f487
+Author: Oscar <os2304@columbia.edu>
+Date:   Fri Feb 14 15:27:24 2020 -0500
+
+    pre project stuff
+
+commit 61020e644651ab3e7b2f9a1a089073fefd9173d9
+Author: Oscar So <oscarso2000jobs@gmail.com>
+Date:   Fri Feb 14 15:26:03 2020 -0500
+
+    Initial commit
